@@ -1,0 +1,17 @@
+# A.Space Resource Booking System
+
+## Overview
+This is the complete Google Apps Script (GAS) source code for the A.Space Web Application. The system is designed to manage time-slot reservations for various company resources (rooms, desks, vehicles) and utilizes a Google Sheet as its primary database.
+
+## Core Features
+- **User Authentication:** Login, Password Change, Forgot Password (OTP), and SSO for GMAIL accounts.
+- **Resource Management:** Inventory and status tracking for Rooms, Desks, Seats, and Vehicles.
+- **Reservation Logic:** Time-based conflict checking to prevent double-booking.
+- **Admin Workflow:** Pending approval system and utilization reporting.
+- **Notifications:** Automated email and Google Calendar integration.
+
+## Files
+- `Code.gs`: Contains all the Apps Script backend logic.
+- `index.html`: Contains the main user interface (HTML/CSS/JS).
+
+**Note to Professor/Reviewer:** This project is deployed as a Google Apps Script Web App. The corresponding Google Sheet (used as the database) is not included here but is required for the application to run.
